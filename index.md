@@ -4,13 +4,10 @@ Boa noite galerinha,
 
 Primeiro vamos entender o que é padrão. Padrão é uma solução geral para um problema que ocorre com frequência dentro de um determinado contexto. Beleza? e agora o que quer dizer GRASP? GRASP é a sigla para General Responsibility Assignment Software Patterns, ou seja, tratam-se de padrões de software responsáveis pela descrição de princípios de fundamental importância  para a atribuição de responsabilidades em projetos orientados a objetos, oferecendo um melhor desempenho do código, e trabalhando acerca de solucionar problemas, garantindo melhor interface do projeto.
 
-O GRASP possúi 4 padrões básicos:
+O GRASP possúi 5 padrões Fundamentais:
 
-### Information Expert
-### Creator
-### High Cohesion
-### Low Coupling
-### Controller
+![](https://ferhenriquef.files.wordpress.com/2012/08/grasp1.png)
+
 
 ## Information Expert
 
