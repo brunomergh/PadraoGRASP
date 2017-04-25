@@ -1,37 +1,61 @@
-## Welcome to GitHub Pages
+## Padrão GRASP
 
-You can use the [editor on GitHub](https://github.com/brunomergh/PadraoGRASP/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Boa noite galerinha,
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Primeiro vamos entender o que é padrão. Padrão é uma solução geral para um problema que ocorre com frequência dentro de um determinado contexto. Beleza? e agora o que quer dizer GRASP? GRASP é a sigla para General Responsibility Assignment Software Patterns, ou seja, tratam-se de padrões de software responsáveis pela descrição de princípios de fundamental importância  para a atribuição de responsabilidades em projetos orientados a objetos, oferecendo um melhor desempenho do código, e trabalhando acerca de solucionar problemas, garantindo melhor interface do projeto.
 
-### Markdown
+O GRASP possúi 4 padrões básicos:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+###Information Expert
+###Creator
+###High Cohesion
+###Low Coupling
+###Controller
 
-```markdown
-Syntax highlighted code block
+##Information Expert
 
-# Header 1
-## Header 2
-### Header 3
+O que é?
+É conhecido por ser o princípio fundamental para atribuir responsabilidade a uma classe.
 
-- Bulleted
-- List
+Benefícios:
+###Encapsulamento é mantido;
+###Fraco acoplamento (facilidade de manutenção);
+###Alta coesão (objetos fazem tudo relacionado à sua própria informação).
 
-1. Numbered
-2. List
+##Creator
 
-**Bold** and _Italic_ and `Code` text
+O que é?
+Atribua à classe a responsabilidade de criar uma instância da outra classe.
 
-[Link](url) and ![Image](src)
-```
+Benefícios:
+###Facilidade no desenvolvimento do projeto e compreensão.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+##High Cohesion
 
-### Jekyll Themes
+O que é?
+Atribuir uma responsabilidade para que a coesão se mantenha alta.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/brunomergh/PadraoGRASP/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Benefícios:
+###Melhor claridade e facilidade de compreensão do projeto;
+###Simplificação da manutenção;
 
-### Support or Contact
+##Low Coupling
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+O que é?
+Atribui as responsabilidades de modo que o acoplamento entre classes permaneça baixo.
+
+Benefícios:
+###Menor dependência entre as classes;
+###Mudar de uma classe que tem menor impacto sobre outras classes;
+###Maior potencial de reutilização.
+
+##Controller
+
+O que é?
+Sim o conhecido controller do MVC, feito por atribuir responsabilidades para receber ou lidar com um evento do sistema.
+
+Benefícios:
+###Diminui a sensibilidade da camada de apresentação em relação à lógica de domínio;
+###Oportunidade para controlar o estado do caso de uso;
+
+Ou seja, conhecendo esses padrões é possível manter o reaproveitamento e a manutenção do seu código, seja por você ou por outra pessoa.
